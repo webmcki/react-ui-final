@@ -10,3 +10,36 @@ Layout 폴더생성
 Footer는 Tabs을 적용
 본문은 즉 Layouts/index.js는 Grid 적용
 store.js 생성
+
+
+<Grid container>
+    <Grid item sm>
+      <Paper style={styles.Paper}>
+        {exercises.map(([exercise, exercises]) => (
+          <Fragment>
+            <Typography
+              variant="headline"
+              style={{textTransform: 'capitalize'}}
+            >
+              {exercise}
+            </Typography>
+            <List component="ul">
+              {exercises.map(({title}) => (
+                <ListItem button>
+                  <ListItemText primary={title} />
+                </ListItem>
+              ))}
+            </List>
+          </Fragment>
+        ))}
+      </Paper>
+    </Grid>
+    <Grid item sm>
+      <Paper style={styles.Paper}>
+        <Typography variant="display1">안녕</Typography>
+        <Typography variant="subheading" style={{marginTop: 20}}>
+          좌측리스트에서 운동을 선택하세요!
+        </Typography>
+      </Paper>
+    </Grid>
+  </Grid>
