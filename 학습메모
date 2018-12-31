@@ -6,3 +6,6 @@ netlify 설정 향후에 리다이렉션 설정 요망 yaml
 .prettierrc 설정
 Layout 폴더생성
 함수형 스니펫 수정
+함수형 컴포넌트에서 Component API로 세부수정
+Footer는 Tabs을 적용
+본문은 즉 Layouts/index.js는 Grid 적용

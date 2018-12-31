@@ -1,7 +1,13 @@
 import React from 'react'
+import Grid from '@material-ui/core/Grid'
 
 export default (props) => (
-  <div>
-    <h1>index</h1>
-  </div>
+  <Grid container>
+    <Grid item sm>
+      왼쪽패널
+    </Grid>
+    <Grid item sm>
+      왼쪽패널
+    </Grid>
+  </Grid>
 )
