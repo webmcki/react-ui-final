@@ -1,0 +1,8 @@
+yarn create react-app react-ui-final
+yarn add @material-ui/core
+netlify 설정 향후에 리다이렉션 설정 요망 yaml
+필요없는 파일 삭제 (css.svg)
+컴포넌트 폴더명 cpnts
+.prettierrc 설정
+Layout 폴더생성
+함수형 스니펫 수정
