@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid'
 import LeftPane from './LeftPane'
 import RightPane from './RightPane'
 
-const style = {
+const styles = {
   Paper: {
     padding: 20,
     marginTop: 10,
@@ -15,10 +15,10 @@ const style = {
 export default (props) => (
   <Grid container>
     <Grid item sm>
-      <LeftPane style={style.Paper} />
+      <LeftPane styles={styles} />
     </Grid>
     <Grid item sm>
-      <RightPane style={style.Paper} />
+      <RightPane styles={styles} />
     </Grid>
   </Grid>
 )
