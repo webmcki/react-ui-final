@@ -7,7 +7,7 @@ export default (props) => (
   <AppBar position="static">
     <Toolbar>
       <Typography variant="headline" color="inherit">
-        별이와 나 2018.12.31
+        별이와 나 (2018.12.31~)
       </Typography>
     </Toolbar>
   </AppBar>
