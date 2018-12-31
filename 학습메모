@@ -9,3 +9,4 @@ Layout 폴더생성
 함수형 컴포넌트에서 Component API로 세부수정
 Footer는 Tabs을 적용
 본문은 즉 Layouts/index.js는 Grid 적용
+store.js 생성
